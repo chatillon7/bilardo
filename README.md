@@ -35,7 +35,7 @@ Modern web teknolojileri kullanılarak geliştirilmiş, gerçekçi fizik motorlu
 
 1. Projeyi klonlayın:
 ```bash
-git clone https://github.com/[kullanici-adi]/bilardo.git
+git clone https://github.com/chatillon7/bilardo.git
 ```
 
 2. Klasöre gidin:
@@ -112,7 +112,7 @@ Proje GitHub Copilot yardımıyla geliştirilmiştir.
 
 ## 🌟 Demo
 
-[Canlı Demo](https://[kullanici-adi].github.io/bilardo/)
+[Canlı Demo](https://chatillon7.github.io/bilardo/)
 
 ---
 
