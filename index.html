@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bilardo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="billiard_ball.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="billiard_ball.png">
+</head>
+<body>
+    <div class="game-container">
+        <h1>🎱 Bilardo 🎱</h1>
+        <!-- Deliğe sokulan toplar paneli -->
+        <div class="pocketed-balls-panel">
+            <h3>Sokulan Sayılar:</h3>
+            <div id="pocketed-balls-container" class="pocketed-balls-grid">
+                <!-- Toplar buraya dinamik olarak eklenecek -->
+            </div>
+        </div>
+        <canvas id="gameCanvas" width="700" height="400"></canvas>
+        <div class="info-panel">
+            <div class="player-info">
+                <span id="power">Güç: 0%</span>
+            </div>
+            <button id="reset-btn">Sıfırla</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
